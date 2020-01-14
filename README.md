@@ -6,7 +6,7 @@
 - Modular design
 - Session-Based authentication (login, register)
 - Forms validation
-- UI Kit: **Light Blue Dashboard** provided by **Creative-Tim**
+- UI Kit: **Light Blue Dashboard** provided by **FlatLogic**
 
 <br />
 
