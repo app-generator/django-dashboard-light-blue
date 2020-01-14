@@ -1,0 +1,88 @@
+{% extends "layouts/base-site-fullscreen.html" %}
+
+{% block title %} Register {% endblock %} 
+
+{% block content %}
+
+    <section class="widget login-widget">
+        <header class="text-align-center">
+            <h4>
+                {% if msg %}
+                    {{ msg | safe }}
+                {% else %}
+                    Sign In
+                {% endif %}    
+            </h4>
+        </header>
+        <div class="body">
+
+            <form role="form" method="post" action="">
+
+                {% csrf_token %} 
+
+                <fieldset>
+
+                    <div class="form-group">
+                        <label for="username" >Username</label>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="fa fa-user"></i>
+                            </span>
+                            {{ form.username }}
+                        </div>
+                    </div>
+                    <span class="text-danger">{{ form.username.errors }}</span>
+
+                    <div class="form-group">
+                        <label for="email" >Email</label>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="fa fa-envelope"></i>
+                            </span>
+                            {{ form.email }}
+                        </div>
+                    </div>
+                    <span class="text-danger">{{ form.email.errors }}</span>
+
+                    <div class="form-group">
+                        <label for="password" >Password</label>
+
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon">
+                                <i class="fa fa-lock"></i>
+                            </span>
+                            {{ form.password1 }}
+                        </div>
+                    </div>
+                    <span class="text-danger">{{ form.password1.errors }}</span>
+
+                    <div class="form-group">
+                        <label for="password" >Password Check</label>
+
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon">
+                                <i class="fa fa-lock"></i>
+                            </span>
+                            {{ form.password2 }}
+                        </div>
+                    </div>
+                    <span class="text-danger">{{ form.password2.errors }}</span>
+
+                </fieldset>
+                <div class="form-actions">
+                    <button type="submit" name="register" class="btn btn-block btn-lg btn-danger">
+                        <span class="small-circle"><i class="fa fa-caret-right"></i></span>
+                        <small>Register</small>
+                    </button>
+                    <a class="forgot" href={% url 'login' %} >Have an account? Login</a>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div class="facebook-login">
+                <a href="#"><span><i class="fa fa-facebook-square fa-lg"></i> LogIn with Facebook</span></a>
+            </div>
+        </footer>
+    </section>
+
+{% endblock content %}
