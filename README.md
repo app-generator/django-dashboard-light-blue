@@ -1,4 +1,4 @@
-# [Django Dashboard Light Blue](https://www.youtube.com/watch?v=vsR9GPxEcNQ)
+# [Django Dashboard Light Blue](https://appseed.us/admin-dashboards/django-dashboard-light-blue)
 
 **Open-Source Admin Panel** coded in **Django Framework** on top of **Light Blue Dashboard** design. **Features**:
 
@@ -79,4 +79,4 @@ $ # Access the web app in browser: http://127.0.0.1:8000/
 <br />
 
 ---
-[Django Dashboard Light Blue](https://www.youtube.com/watch?v=vsR9GPxEcNQ) - provided by **AppSeed**
+[Django Dashboard Light Blue](https://appseed.us/admin-dashboards/django-dashboard-light-blue) - provided by **AppSeed**
