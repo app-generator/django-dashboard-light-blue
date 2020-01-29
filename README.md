@@ -1,7 +1,8 @@
 # [Django Dashboard Light Blue](https://appseed.us/admin-dashboards/django-dashboard-light-blue)
 
-**Open-Source Admin Panel** coded in **Django Framework** on top of **Light Blue Dashboard** design. **Features**:
+**Open-Source Admin Dashboard** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
+### Dashboard Features:
 - SQLite, Django native ORM
 - Modular design
 - Session-Based authentication (login, register)
@@ -80,4 +81,4 @@ $ # Access the web app in browser: http://127.0.0.1:8000/
 <br />
 
 ---
-[Django Dashboard Light Blue](https://appseed.us/admin-dashboards/django-dashboard-light-blue) - provided by **AppSeed**
+[Django Dashboard Light Blue](https://appseed.us/admin-dashboards/django-dashboard-light-blue) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
