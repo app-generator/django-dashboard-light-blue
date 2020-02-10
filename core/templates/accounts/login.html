@@ -7,12 +7,20 @@
     <section class="widget login-widget">
         <header class="text-align-center">
             <h4>
+                Sign In
+            </h4>
+            <br />
+
+            <p>
                 {% if msg %}
                     {{ msg | safe }}
-                {% else %}
-                    Sign In
-                {% endif %}               
-            </h4>
+                {% else %}    
+                Use default credentials: test / ApS12_ZZs8
+                <br />
+                OR <a href={% url 'register' %} >create your own user</a>            
+                {% endif %}
+            </p>
+
         </header>
         <div class="body">
 
@@ -54,7 +62,9 @@
         </div>
         <footer>
             <div class="facebook-login">
-                <a href="#s"><span><i class="fa fa-facebook-square fa-lg"></i> LogIn with Facebook</span></a>
+                <a href="https://appseed.us/admin-dashboards/django-dashboard-light-blue">
+                    <span><i class="fa fa-rocket fa-lg"></i> Django Dashboard Light Blue </span>
+                </a>
             </div>
         </footer>
     </section>
