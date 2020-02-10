@@ -183,7 +183,7 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 ## Credits
 
-- [Django Dashboard Light Blue](https://www.youtube.com/watch?v=RJkCTn55ywo) - yTube presentation
+- [Django Dashboard Light Blue](https://www.youtube.com/watch?v=vsR9GPxEcNQ) - yTube presentation
 - [Django Framework](https://www.djangoproject.com/) - Offcial website
 - [Django Admin Dashboards](https://appseed.us/admin-dashboards/django) - Open-source and paid admin panels coded in **Django**
 
