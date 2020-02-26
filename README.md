@@ -2,7 +2,7 @@
 
 **Open-Source Admin Dashboard** coded in **[Django Framework](https://www.djangoproject.com/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
-### Dashboard Features
+## Dashboard Features
 
 - SQLite, Django native ORM
 - Modular design
@@ -10,14 +10,14 @@
 - Forms validation
 - UI Kit: **Light Blue Dashboard** (Free Version) by **FlatLogic**
 
-### Deployment Scripts
+## Deployment Scripts
 
 - **Heroku** - Cloud Application Platform
 - **Docker** - execute the app using a sandboxed container
 - **Gunicorn** / Nginx - a common used configuration for Django Apps
 - **Waitress** - Gunicorn equivalent for Windows.       
 
-### Web App Links
+## Web App Links
 
 - [Django Dashboard Light Blue](https://appseed.us/admin-dashboards/django-dashboard-light-blue) - Product page 
 - [Django Dashboard Light Blue](https://django-dashboard-light-blue.appseed.us/login/) - LIVE Demo
