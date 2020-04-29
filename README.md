@@ -179,7 +179,7 @@ A dashboard is a set of pages that are easy to read and offer information to the
 
 ### [Light Blue Dashboard](https://github.com/flatlogic/light-blue-dashboard?ref=appseed)
 
-Using this template you will be able to leverage lots of built-in components and thus focus on building features that set you apart from competitors rather than bulding everything from scratch. - provided by **FlatLogic**.
+Using this template you will be able to leverage lots of built-in components and thus focus on building features that set you apart from competitors rather than building everything from scratch. - provided by **FlatLogic**.
 
 <br />
 
