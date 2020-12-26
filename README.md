@@ -163,4 +163,4 @@ Using this template you will be able to leverage lots of built-in components and
 <br />
 
 ---
-[Django Dashboard](https://appseed.us/admin-dashboards/django?ref=gh) Light Blue - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Django Dashboard](https://appseed.us/admin-dashboards/django?ref=gh) Light Blue - Provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
